@@ -1,0 +1,49 @@
+@media only screen and (min-width: 769px) {
+    .carousel {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+    .parrafoServicios .textoParrafos{
+        font-size: medium;
+    }
+   
+    .carousel {
+        display: none;
+    }
+
+    .h1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .h1 {
+        display: none;
+    }
+
+    .sectionUno nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sectionCuatro div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuCompanias {
+        display: none;
+    }
+
+    .parrafoServicios, .textoParrafos{
+        font-size: medium;
+        
+    }
+    .imagenServicios {
+        display: none;
+    }
+    
+}

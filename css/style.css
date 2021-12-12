@@ -1,0 +1,239 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menuInicio li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 15px;
+  padding: 15px;
+  font-family: "Andada Pro", serif;
+  text-align: center;
+}
+
+.menuInicio li:hover {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid;
+  border-width: 1px;
+  transition: all, 0.5s;
+}
+
+.h1 {
+  display: inline-block;
+  font-family: "Cedarville Cursive", cursive;
+  margin: 10px 10px 10px 30px;
+}
+
+.sectionUno {
+  width: auto;
+}
+
+.parrafoServicios {
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  font-size: large;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.sectionUno nav div img:hover {
+  transition: all, 0.9s;
+}
+
+.menuCompanias {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 80% 20%;
+  text-align: center;
+  margin: 3%;
+}
+
+.menuCompanias li img {
+  width: 80%;
+  height: 80%;
+  transition: all, 0.9s;
+}
+
+.menuCompanias li {
+  list-style: none;
+}
+
+.menuCompanias li p {
+  width: 100%;
+  height: 100%;
+  font-family: "Andada Pro", serif;
+}
+
+.textoParrafos {
+  font-family: "Andada Pro", serif;
+  text-align: center;
+  margin: 3%;
+  text-align: center;
+  font-size: smaller;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: large;
+  text-align: justify;
+}
+
+.sectionCuatro {
+  width: auto;
+}
+
+.sectionCuatro div {
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-image: linear-gradient(to right, black, grey);
+}
+
+.footerEnd {
+  text-align: center;
+}
+
+.mainContacto .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Andada Pro", serif;
+  list-style: none;
+  background-color: #ecfcfa;
+  padding: 3px;
+  margin: 10px;
+}
+
+.titulos {
+  font-family: "Andada Pro", serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectionUno, .sectionDos, .sectionTres, .sectionCuatro, .mainContacto {
+  background-color: #ecfcfa;
+}
+
+@media only screen and (min-width: 769px) {
+  .carousel {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+  .parrafoServicios .textoParrafos {
+    font-size: medium;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .h1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .h1 {
+    display: none;
+  }
+
+  .sectionUno nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionCuatro div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menuCompanias {
+    display: none;
+  }
+
+  .parrafoServicios, .textoParrafos {
+    font-size: medium;
+  }
+
+  .imagenServicios {
+    display: none;
+  }
+}
+.tituloServicios, .tituloNosotros, .tituloCompanias, .titulos {
+  background-color: #84c3be;
+}
+
+.volver:hover, .volver {
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+}
+
+.volver {
+  display: flex;
+  justify-content: center;
+  font-family: "Andada Pro", serif;
+  background-color: #7eeadf;
+}
+
+.volver:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.menuCompanias li img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.sectionUno nav div img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.footerEnd {
+  color: white;
+}
+
+header {
+  background-color: #7eeadf;
+}
+
+.mainContacto .section1 {
+  background-color: #ecfcfa;
+}
+
+header {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

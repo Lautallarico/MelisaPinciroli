@@ -1,0 +1,19 @@
+%botones {
+    padding: 10px;
+    border: solid;
+    border-width: 1px;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    font-family: 'Andada Pro', serif;
+    background-color: #7eeadf;
+   @extend %botones;
+}
+
+.volver:hover{
+    background-color: white;    
+    border-radius: 20px;
+    @extend %botones;
+}

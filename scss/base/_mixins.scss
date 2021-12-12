@@ -1,0 +1,11 @@
+@mixin translates($transformaciones) {
+    transform: $transformaciones;
+}
+
+.menuCompanias li img:hover{
+    @include translates(scale(1.5,1.5))
+}
+
+.sectionUno nav div img:hover{
+    @include translates(scale(1.1,1.1))
+}

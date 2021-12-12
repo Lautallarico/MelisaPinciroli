@@ -1,0 +1,21 @@
+@import 'componentes/header';
+@import 'componentes/sectionUno';
+@import 'componentes/sectionDos';
+@import 'componentes/sectionTres';
+@import 'componentes/sectionCuatro';
+@import 'componentes/footer';
+@import 'componentes/pageContacto';
+@import 'base/titulos';
+@import 'base/mediaQueries';
+@import 'base/mapas';
+@import 'base/extends';
+@import 'base/mixins';
+@import 'base/listas';
+@import 'base/operaciones';
+
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+

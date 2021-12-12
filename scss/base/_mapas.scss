@@ -1,0 +1,8 @@
+
+$titulos: (
+    color-titulos: #84c3be,
+);
+
+.tituloServicios, .tituloNosotros, .tituloCompanias, .titulos {
+    background-color: map-get($map: $titulos, $key: color-titulos),
+};

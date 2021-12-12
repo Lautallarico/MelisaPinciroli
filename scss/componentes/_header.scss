@@ -1,0 +1,42 @@
+header{
+    // width: 100%;
+    // background-color: #7eeadf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuInicio li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+}
+
+
+.menuInicio li:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    transition: all, 0.5s;
+}
+
+
+
+.h1{
+    display: inline-block;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 10px 10px 10px 30px;
+}

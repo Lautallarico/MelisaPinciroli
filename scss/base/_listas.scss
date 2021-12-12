@@ -1,0 +1,16 @@
+$colores:
+#7eeadf,
+#ecfcfa,
+white;
+
+.footerEnd{
+    color: nth($list: $colores, $n: 3);
+}
+
+header {
+    background-color: nth($list: $colores, $n:1);
+}
+
+.mainContacto .section1 {
+    background-color: nth($list: $colores, $n:2);
+}
