@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Proyecto final de curso de desarrollo web de Coderhouse\r <h1 align=\"center\">Hola 👋, Soy Lautaro Tallarico</h1>\r <h3 align=\"center\">Soy un Contador Público intentando ser Desarrollador Web</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautallarico/MelisaPinciroli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lautallarico/MelisaPinciroli/issues"
+  },
+  "homepage": "https://github.com/Lautallarico/MelisaPinciroli#readme"
 }

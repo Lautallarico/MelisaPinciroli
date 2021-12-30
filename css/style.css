@@ -53,6 +53,10 @@ header div {
   transition: all, 0.9s;
 }
 
+.sectionUno div div div {
+  align-items: center;
+}
+
 .menuCompanias {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -128,6 +132,10 @@ header div {
   margin: 10px;
 }
 
+.sectionCuatro .textoParrafos {
+  text-align: center;
+}
+
 .titulos {
   font-family: "Andada Pro", serif;
   width: 100%;
@@ -185,12 +193,17 @@ header div {
   .imagenServicios {
     display: none;
   }
+
+  .redesSociales {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }
 .tituloServicios, .tituloNosotros, .tituloCompanias, .titulos {
   background-color: #84c3be;
 }
 
-.volver:hover, .volver {
+.redesSociales li :hover, .volver:hover, .volver {
   padding: 10px;
   border: solid;
   border-width: 1px;
@@ -204,6 +217,11 @@ header div {
 }
 
 .volver:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.redesSociales li :hover {
   background-color: white;
   border-radius: 20px;
 }

@@ -12,7 +12,13 @@
    @extend %botones;
 }
 
-.volver:hover{
+.volver:hover {
+    background-color: white;    
+    border-radius: 20px;
+    @extend %botones;
+}
+
+.redesSociales li :hover {
     background-color: white;    
     border-radius: 20px;
     @extend %botones;

@@ -13,21 +13,10 @@
     padding-right: 10%;
 }
 
-// .sectionUno nav{
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//     grid-template-rows: 1fr;
-//     grid-column-gap: 30px;
-//     margin: 3%;
-//     align-items: center;
-//     width: auto;
-// }
-
-// .sectionUno nav div{
-//     align-items: center;
-//     width: auto;
-// }
-
 .sectionUno nav div img:hover{
     transition: all, 0.9s;
+}
+
+.sectionUno div div div img {
+    align-items: center;
 }
