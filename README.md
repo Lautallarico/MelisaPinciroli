@@ -5,8 +5,6 @@ Proyecto final de curso de desarrollo web de Coderhouse
 
 - 🔭 I’m currently working on **Melisa Pinciroli Website**
 
-- ⚡ Fun fact **No sé cómo llegué hasta acá**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/lauta_t" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="lauta_t" height="30" width="40" /></a>
